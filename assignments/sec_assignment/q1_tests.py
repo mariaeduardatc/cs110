@@ -56,4 +56,4 @@ def my_sort(lst):
 
 
 
-print(my_sort([8, 5, 7]), 'final')
+print(my_sort([8, 5, 8]), 'final')
