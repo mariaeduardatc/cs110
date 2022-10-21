@@ -42,6 +42,7 @@ def my_sort(lst):
         # gets the 1st numbers of each list "pile" and puts them on the list tops
         tops = [pile[0] for pile in piles]
         # gets the position of the smallest number in the new list "tops"
+        # this index indicates which sublist the smallest element is in piles
         idx_smallest = tops.index(min(tops))
 
         # the idx_smallest works because each "pile" is already sorted, we need to just put all "pile" together
